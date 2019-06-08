@@ -6,7 +6,7 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import org.w3c.tidy.Tidy;
 
-@Version(1.0f)
+@Version(0.1f)
 @ShortName("HTMLBeautify")
 @DependsOn(values={"jHTMLBeautify_Jtidy"})
 public class HTMLBeautify {
