@@ -92,4 +92,5 @@ public class HTMLBeautify {
 			return "Error to parse the XML";
 		}
 	}
+	
 }
