@@ -8,5 +8,6 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Program Files (x86)/Anywhere Software/B4J/Libraries/jCore.jar"/>
 	<classpathentry kind="lib" path="C:/Users/alejandrojm/eclipse-workspace/jHTMLBeautify/libs/jHTMLBeautify_Jtidy.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alejandrojm/eclipse-workspace/jHTMLBeautify/libs/jHTMLBeautify_Jsoup.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
