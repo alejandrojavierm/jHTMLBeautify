@@ -13,7 +13,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.parser.Parser;
 import org.jsoup.nodes.Document;
 
-@Version(0.2f)
+@Version(0.3f)
 @ShortName("HTMLBeautify")
 @DependsOn(values={"jHTMLBeautify_Jtidy","jHTMLBeautify_Jsoup"})
 public class HTMLBeautify {
@@ -141,9 +141,9 @@ public class HTMLBeautify {
 	 * This function parse HTML body segment using the Jsoup library
 	 * Example:<code>
 	 * Dim objHTMLBeautify as HTMLBeautify
-	 * Dim xml as String = File.ReadString(File.DirApp,"demo.html")
-	 * xml = objHTMLBeautify.FormatXML(xml)
-	 * Log(xml)</code>
+	 * Dim html as String = File.ReadString(File.DirApp,"demo.html")
+	 * html = objHTMLBeautify.FormatHTMLBody(html)
+	 * Log(html)</code>
 	 */
 	public static String FormatHTMLBody(String html){
 		try {
