@@ -6,3 +6,4 @@ Versions
 
 * 0.1 Initial version of the library with cleaning functions based on jTidy
 * 0.2 Adds documentation with examples and new Format functions based on Jsoup
+* 0.3 Documentation fix on FormatHTMLBody
